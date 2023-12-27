@@ -1,0 +1,19 @@
+{
+  "name": "main-repo",
+  "version": "1.0.0",
+  "description": "Basic template for a monorepo",
+  "scripts": {
+    "packages": "dotenv -- pnpm --filter",
+    "app": "pnpm packages chatino",
+    "start": "pnpm --stream -r run dev",
+    "dev": "dotenv -- pnpm -r dev",
+    "build": "dotenv -- pnpm -r build",
+    "clean": "pnpm -r run clean"
+  },
+  "keywords": [],
+  "author": "Ismael Garcia",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv-cli": "^7.3.0"
+  }
+}

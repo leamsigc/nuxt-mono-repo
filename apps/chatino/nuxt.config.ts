@@ -1,0 +1,8 @@
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+  devtools: { enabled: true },
+  extends:['nuxt3-local-shared-ui'],
+  modules: [
+    "@nuxt/devtools",
+  ]
+})
