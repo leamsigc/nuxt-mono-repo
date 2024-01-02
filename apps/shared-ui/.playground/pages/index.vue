@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 /**
  *
- * Home Page
+ * Component Description:Desc
  *
  * @author Reflect-Media <reflect.media GmbH>
  * @version 0.0.1

@@ -10,8 +10,11 @@
  * @todo [ ] Integration test.
  * @todo [✔] Update the typescript.
  */
-const colorMode = useColorMode()
-const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'dark') : (colorMode.preference = 'light'))
+const colorMode = useColorMode();
+const onClick = () =>
+  colorMode.value === "light"
+    ? (colorMode.preference = "dark")
+    : (colorMode.preference = "light");
 </script>
 
 <template>
@@ -28,4 +31,4 @@ const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'da
     </ColorScheme>
   </button>
 </template>
-<style scoped ></style>
+<style scoped></style>
