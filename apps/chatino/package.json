@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "chatino",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "nuxt": "^3.9.0",
-    "nuxt3-local-shared-ui": "latest",
+    "nuxt3-local-shared-ui": "workspace:^",
     "vue": "^3.3.13",
     "vue-router": "^4.2.5",
     "@nuxt/devtools": "^1.0.2"

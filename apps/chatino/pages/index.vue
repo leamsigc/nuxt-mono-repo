@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 /**
  *
- * Component entrance for the application
+ * Home Page
  *
  * @author Reflect-Media <reflect.media GmbH>
  * @version 0.0.1
@@ -13,8 +13,8 @@
 </script>
 
 <template>
-  <AppLayout>
-    <NuxtPage />
-  </AppLayout>
+    <div>
+        content
+    </div>
 </template>
 <style scoped ></style>

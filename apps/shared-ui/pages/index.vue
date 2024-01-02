@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 /**
  *
- * Component entrance for the application
+ * Demo page
  *
  * @author Reflect-Media <reflect.media GmbH>
  * @version 0.0.1
@@ -13,8 +13,10 @@
 </script>
 
 <template>
-  <AppLayout>
-    <NuxtPage />
-  </AppLayout>
+  <div>
+    <h1>Hello from the shared ui</h1>
+    <UiHelloWorld />
+    <UiThemeSwitcher />
+  </div>
 </template>
 <style scoped ></style>
